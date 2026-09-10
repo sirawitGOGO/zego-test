@@ -1,10 +1,19 @@
 import express, { Request, Response } from 'express';
+import cors from "cors";
 import config from './config/config';
 import db from './database/database';
 import router from './route/route';
 
 const app = express();
 const port = config.port;
+
+app.use(
+  cors({
+    origin: ["http://localhost:5173"],
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true,
+  })
+);
 
 app.use(express.json());
 
