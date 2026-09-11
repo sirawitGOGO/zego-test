@@ -8,6 +8,8 @@
 
 ## Database
 
+![ER Diagram](website_image/er_diagram.jpeg)
+
 ใช้ PostgreSQL มีตารางประกอบด้วย
 
 - candidate (ข้อมูลตำแหน่ง)
@@ -129,3 +131,21 @@ src/
 - โยน Payload ของข้อมูลเข้า mutate(payload) ของ React Query
 
 - เมื่อ Backend ตอบกลับว่าสำเร็จ Hook จะแจ้งเตือน และล้างข้อมูลทั้งหมดของทุกฟอร์ม และพาผู้ใช้กลับไปหน้าแรก
+
+## UI Website
+
+![ข้อมูลตำแหน่ง](website_image/website01.png)
+
+![ข้อมูลส่วนตัว](website_image/website02.png)
+
+![ข้อมูลครอบครัว](website_image/website03.png)
+
+![ประวัติการศึกษา](website_image/website04.png)
+
+![ประวัติการทำงาน](website_image/website05.png)
+
+![ความสามารถทางภาษา](website_image/website06.png)
+
+![ความสามารถพิเศษ](website_image/website07.png)
+
+![ความสามารถพิเศษกรณีที่มีความสามารถในการพิมพ์, การใช้คอมพิวเตอร์, หรือการขับขี่](website_image/website07_01.png)
